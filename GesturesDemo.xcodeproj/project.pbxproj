@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6EB05371A1749E500EE6E34 /* EdgePanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EB05361A1749E500EE6E34 /* EdgePanViewController.m */; };
 		D93C35CC19A734CB006BE066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93C35CB19A734CB006BE066 /* Foundation.framework */; };
 		D93C35CE19A734CB006BE066 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93C35CD19A734CB006BE066 /* CoreGraphics.framework */; };
 		D93C35D019A734CB006BE066 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93C35CF19A734CB006BE066 /* UIKit.framework */; };
@@ -14,14 +15,17 @@
 		D93C35D819A734CB006BE066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C35D719A734CB006BE066 /* main.m */; };
 		D93C35DC19A734CB006BE066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C35DB19A734CB006BE066 /* AppDelegate.m */; };
 		D93C35DF19A734CB006BE066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93C35DD19A734CB006BE066 /* Main.storyboard */; };
-		D93C35E219A734CB006BE066 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C35E119A734CB006BE066 /* FirstViewController.m */; };
-		D93C35E519A734CB006BE066 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C35E419A734CB006BE066 /* SecondViewController.m */; };
 		D93C35E719A734CB006BE066 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93C35E619A734CB006BE066 /* Images.xcassets */; };
 		D93C35EE19A734CB006BE066 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93C35ED19A734CB006BE066 /* XCTest.framework */; };
 		D93C35EF19A734CB006BE066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93C35CB19A734CB006BE066 /* Foundation.framework */; };
 		D93C35F019A734CB006BE066 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93C35CF19A734CB006BE066 /* UIKit.framework */; };
 		D93C35F819A734CB006BE066 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D93C35F619A734CB006BE066 /* InfoPlist.strings */; };
 		D93C35FA19A734CB006BE066 /* GesturesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C35F919A734CB006BE066 /* GesturesDemoTests.m */; };
+		D93C360519A736B3006BE066 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C360419A736B3006BE066 /* TapViewController.m */; };
+		D93C360819A7375E006BE066 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C360719A7375E006BE066 /* SwipeViewController.m */; };
+		D93C360B19A73766006BE066 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C360A19A73766006BE066 /* PanViewController.m */; };
+		D93C360E19A7376E006BE066 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C360D19A7376E006BE066 /* PinchViewController.m */; };
+		D93C361119A73776006BE066 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93C361019A73776006BE066 /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6EB05351A1749E500EE6E34 /* EdgePanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgePanViewController.h; sourceTree = "<group>"; };
+		C6EB05361A1749E500EE6E34 /* EdgePanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgePanViewController.m; sourceTree = "<group>"; };
 		D93C35C819A734CB006BE066 /* GesturesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93C35CB19A734CB006BE066 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D93C35CD19A734CB006BE066 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +52,22 @@
 		D93C35DA19A734CB006BE066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D93C35DB19A734CB006BE066 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D93C35DE19A734CB006BE066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D93C35E019A734CB006BE066 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		D93C35E119A734CB006BE066 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		D93C35E319A734CB006BE066 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		D93C35E419A734CB006BE066 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D93C35E619A734CB006BE066 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D93C35EC19A734CB006BE066 /* GesturesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93C35ED19A734CB006BE066 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D93C35F519A734CB006BE066 /* GesturesDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GesturesDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D93C35F719A734CB006BE066 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D93C35F919A734CB006BE066 /* GesturesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesDemoTests.m; sourceTree = "<group>"; };
+		D93C360319A736B3006BE066 /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		D93C360419A736B3006BE066 /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		D93C360619A7375E006BE066 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		D93C360719A7375E006BE066 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		D93C360919A73766006BE066 /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		D93C360A19A73766006BE066 /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		D93C360C19A7376E006BE066 /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		D93C360D19A7376E006BE066 /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		D93C360F19A73776006BE066 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		D93C361019A73776006BE066 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +130,18 @@
 				D93C35DA19A734CB006BE066 /* AppDelegate.h */,
 				D93C35DB19A734CB006BE066 /* AppDelegate.m */,
 				D93C35DD19A734CB006BE066 /* Main.storyboard */,
-				D93C35E019A734CB006BE066 /* FirstViewController.h */,
-				D93C35E119A734CB006BE066 /* FirstViewController.m */,
-				D93C35E319A734CB006BE066 /* SecondViewController.h */,
-				D93C35E419A734CB006BE066 /* SecondViewController.m */,
+				D93C360319A736B3006BE066 /* TapViewController.h */,
+				D93C360419A736B3006BE066 /* TapViewController.m */,
+				D93C360619A7375E006BE066 /* SwipeViewController.h */,
+				D93C360719A7375E006BE066 /* SwipeViewController.m */,
+				D93C360919A73766006BE066 /* PanViewController.h */,
+				D93C360A19A73766006BE066 /* PanViewController.m */,
+				D93C360C19A7376E006BE066 /* PinchViewController.h */,
+				D93C360D19A7376E006BE066 /* PinchViewController.m */,
+				D93C360F19A73776006BE066 /* RotationViewController.h */,
+				D93C361019A73776006BE066 /* RotationViewController.m */,
+				C6EB05351A1749E500EE6E34 /* EdgePanViewController.h */,
+				C6EB05361A1749E500EE6E34 /* EdgePanViewController.m */,
 				D93C35E619A734CB006BE066 /* Images.xcassets */,
 				D93C35D219A734CB006BE066 /* Supporting Files */,
 			);
@@ -254,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93C35E519A734CB006BE066 /* SecondViewController.m in Sources */,
+				C6EB05371A1749E500EE6E34 /* EdgePanViewController.m in Sources */,
+				D93C361119A73776006BE066 /* RotationViewController.m in Sources */,
+				D93C360E19A7376E006BE066 /* PinchViewController.m in Sources */,
+				D93C360519A736B3006BE066 /* TapViewController.m in Sources */,
+				D93C360B19A73766006BE066 /* PanViewController.m in Sources */,
 				D93C35DC19A734CB006BE066 /* AppDelegate.m in Sources */,
-				D93C35E219A734CB006BE066 /* FirstViewController.m in Sources */,
+				D93C360819A7375E006BE066 /* SwipeViewController.m in Sources */,
 				D93C35D819A734CB006BE066 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +486,7 @@
 				D93C35FF19A734CC006BE066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D93C360019A734CC006BE066 /* Build configuration list for PBXNativeTarget "GesturesDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +495,7 @@
 				D93C360219A734CC006BE066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
